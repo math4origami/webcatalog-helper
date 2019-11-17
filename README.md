@@ -34,8 +34,4 @@ TODO
 
 ## Meta
 
-Written by Russell Chou ([@math4origami](https://twitter.com/math4origami)) with help from fc ([@usashiki7](https://twitter.com/usashiki7)). Distributed under the MIT license (see `LICENSE` ). PRs welcome!
-
-## Disclaimer
-
-This extension is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. We are not responsible for any data loss this extension may cause.
+Written by Russell Chou ([@math4origami](https://twitter.com/math4origami)) with help from fc ([@usashiki7](https://twitter.com/usashiki7)). Distributed under the MIT license (see [`LICENSE`](LICENSE) ). PRs welcome!
