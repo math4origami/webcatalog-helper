@@ -34,4 +34,4 @@ TODO
 
 ## Meta
 
-Written by Russell Chou ([@math4origami](https://twitter.com/math4origami)) with help from fc ([@usashiki7](https://twitter.com/usashiki7)). Distributed under the MIT license (see [`LICENSE`](LICENSE) ). PRs welcome!
+Written by Russell Chou ([@math4origami](https://twitter.com/math4origami)) with help from fc ([@usashiki7](https://twitter.com/usashiki7)). Distributed under the MIT license (see [`LICENSE`](LICENSE)). PRs welcome!
