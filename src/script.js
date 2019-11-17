@@ -38,7 +38,7 @@ function FavoriteHelper() {
 
     let links = memoSpan.getElementsByTagName("a");
     for (let link of links) {
-      link.onclick = function(event) { event.stopPropagation(); };
+      link.onclick = function (event) { event.stopPropagation(); };
     }
     return memoSpan.innerHTML;
   }
@@ -51,7 +51,7 @@ function FavoriteHelper() {
     memo.inputOld = memo.span.innerText;
     memo.spanOld = replaceLinks(memo.span);
     memo.inputIsHidden = getInputIsHidden(memo);
-    setInterval(function() {
+    setInterval(function () {
       if (memo.spanOld != memo.span.innerHTML) {
         memo.inputOld = memo.span.innerText;
         memo.spanOld = replaceLinks(memo.span);
@@ -67,15 +67,14 @@ function FavoriteHelper() {
   }
 
   function addMemoListeners(memo) {
-    memo.cell.onclick = function(event) {
+    memo.cell.onclick = function (event) {
       if (event.target == memo.cell && event.isTrusted) {
         memo.edit.click();
       }
     };
-    memo.input.onkeydown = function(event) {
+    memo.input.onkeydown = function (event) {
       event.stopPropagation();
-      if (event.key == "Enter" ||
-          (event.key == "s" && event.ctrlKey)) {
+      if (event.key == "Enter" || (event.key == "s" && event.ctrlKey)) {
         memo.inputOld = memo.input.value;
         memo.submit.click();
         return false;
@@ -99,7 +98,7 @@ function FavoriteHelper() {
   function getModels() {
     let that = {};
     let models = JSON.parse(document.getElementById("TheModel").innerHTML).Circles;
-    that.getById = function(id) {
+    that.getById = function (id) {
       for (let model of models) {
         if (model.Id == id) {
           return model;
@@ -131,7 +130,7 @@ function FavoriteHelper() {
     support.style.display = "none";
     if (shouldCopy) {
       supportCopy.title = url;
-      supportCopy.onclick = function(event) {
+      supportCopy.onclick = function (event) {
         event.stopPropagation();
         window.open(url, "_blank");
       };
@@ -189,7 +188,7 @@ function FavoriteHelper() {
     }
   }
 
-  that.run = function() {
+  that.run = function () {
     let isCircles = isFavoriteCircles();
     let isBooths = isFavoriteBooths();
     if (!isCircles && !isBooths) {
