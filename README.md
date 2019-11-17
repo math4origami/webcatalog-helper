@@ -10,7 +10,7 @@ https://chrome.google.com/webstore/detail/webcatalog-helper/epnfnpbamkifbioepdje
 
 ### Firefox
 
-TODO
+Install via the XPI file on the [latest release](https://github.com/math4origami/webcatalog-helper/releases/latest). This file has been signed by Mozilla and will auto-update when new releases are made.
 
 ## Features
 
@@ -33,6 +33,23 @@ TODO
 ![Firefox Override Keyboard Shortcuts setting](images/ff-permissions.png)
 
 * In Firefox, the `Ctrl+S` hotkey may open the system `Save As` window. To disable this, open the [Page Info window](https://support.mozilla.org/en-US/kb/firefox-page-info-window), go to the `Permissions` tab, find the `Override Keyboard Shortcuts` line, and set it to `Allow` .
+
+## Development
+
+All code is contained in `src/script.js`.
+
+### Releases
+
+#### Chrome
+
+TODO
+
+#### Firefox
+
+1. Create the add-on zip with all necessary files: `manifest.json`, `updates.json`, `src/`, etc.
+2. Sign the zip via the Add-on Developer Hub ([alternatives](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/#signing-your-addons)).
+3. Download the signed zip, and upload to a [new Github release](https://github.com/math4origami/webcatalog-helper/releases/new).
+4. Add a link to the new release to [`updates.json`](updates.json) (this can be done in the initial commit, [docs](https://extensionworkshop.com/documentation/manage/updating-your-extension/)).
 
 ## Meta
 
