@@ -21,7 +21,7 @@ TODO
 * Adds the author name (執筆者名) next to the circle name (サークル名)
 * Enables clicking anywhere in the memo cell to open the memo text edit field
 * Autofocuses the text cursor on the memo text field when opened
-* Within the memo text field, adds keyboard shortcuts `Enter` or `Ctrl+S` to save changes or `Esc` to revert changes
+* Within the memo text field, adds keyboard shortcuts `Enter` or `Ctrl+S` to save changes, or `Esc` to revert changes
 * Changes the social media icons to links to their respective social media pages if present, instead of just going to circle info
 
 ## Troubleshooting
