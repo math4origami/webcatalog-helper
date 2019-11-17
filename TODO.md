@@ -30,5 +30,4 @@
 ## General
 
 * `?` to show hotkeys
-* Github repo
 * Upload Firefox version

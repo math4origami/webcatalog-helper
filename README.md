@@ -38,4 +38,4 @@ Written by Russell Chou ([@math4origami](https://twitter.com/math4origami)) with
 
 ## Disclaimer
 
-This extension is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. I am not responsible for any data loss this extension may cause.
+This extension is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. We are not responsible for any data loss this extension may cause.
