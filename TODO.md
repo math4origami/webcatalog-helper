@@ -9,7 +9,7 @@
     - `1-9` to set color
     - `shift+1-5` to open links
         - pixiv, twitter, nico, home, memo, ...
-        - or: `p, t, n, h, m` 
+        - or: `p, t, n, h, m`
     - `shift jk` to jump to next genre
     - `backspace` or `delete` to delete?
     - Selection/editing of multiple circles at once?
@@ -30,4 +30,3 @@
 ## General
 
 * `?` to show hotkeys
-* Upload Firefox version
