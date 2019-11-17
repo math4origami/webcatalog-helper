@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "webcatalog helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "webcatalog helper",
   "content_scripts": [
     {
