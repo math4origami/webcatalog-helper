@@ -47,7 +47,7 @@ TODO
 #### Firefox
 
 1. Create the add-on zip with all necessary files: `manifest.json`, `updates.json`, `src/`, etc.
-2. Sign the zip via the Add-on Developer Hub ([alternatives](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/#signing-your-addons)).
+2. Sign the zip via the [Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/addons) ([alternatives](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/#signing-your-addons)).
 3. Download the signed zip, and upload to a [new Github release](https://github.com/math4origami/webcatalog-helper/releases/new).
 4. Add a link to the new release to [`updates.json`](updates.json) (this can be done in the initial commit, [docs](https://extensionworkshop.com/documentation/manage/updating-your-extension/)).
 
