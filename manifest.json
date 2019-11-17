@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "webcatalog helper",
+  "version": "1.0.5",
+  "description": "webcatalog helper",
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "js": [
+        "src/script.js"
+      ],
+      "matches": [
+        "https://webcatalog.circle.ms/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "applications": {
+    "gecko": {
+      "update_url": "https://raw.githubusercontent.com/math4origami/webcatalog-helper/master/updates.json"
+    }
+  }
+}
