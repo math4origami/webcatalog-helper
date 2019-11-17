@@ -30,7 +30,7 @@ TODO
 
 ![Firefox Override Keyboard Shortcuts setting](images/ff-permissions.png)
 
-* In Firefox, the `Ctrl+S` hotkey may open the system Save As window. To disable this, open the [Page Info window](https://support.mozilla.org/en-US/kb/firefox-page-info-window), go to the `Permissions` tab, find the `Override Keyboard Shortcuts` line, and set it to `Allow` .
+* In Firefox, the `Ctrl+S` hotkey may open the system `Save As` window. To disable this, open the [Page Info window](https://support.mozilla.org/en-US/kb/firefox-page-info-window), go to the `Permissions` tab, find the `Override Keyboard Shortcuts` line, and set it to `Allow` .
 
 ## Meta
 
