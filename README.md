@@ -16,6 +16,8 @@ TODO
 
 ### Favorites / お気に入り
 
+**Note: [As of June 2019](https://docs.circle.ms/webcatalog/ctn/credit/001.html), you need a paid account in order to use Favorites.**
+
 ![screenshot.png](images/screenshot.png)
 
 * Adds the author name (執筆者名) next to the circle name (サークル名)
