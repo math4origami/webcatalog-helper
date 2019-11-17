@@ -46,6 +46,7 @@ TODO
 
 #### Firefox
 
+0. Bump the version in `manifest.json`.
 1. Create the add-on zip with all necessary files: `manifest.json`, `updates.json`, `src/`, etc.
 2. Sign the zip via the [Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/addons) ([alternatives](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/#signing-your-addons)).
 3. Download the signed zip, and upload to a [new Github release](https://github.com/math4origami/webcatalog-helper/releases/new).
