@@ -10,7 +10,7 @@ https://chrome.google.com/webstore/detail/webcatalog-helper/epnfnpbamkifbioepdje
 
 ### Firefox
 
-Install via the XPI file on the [latest release](https://github.com/math4origami/webcatalog-helper/releases/latest). This file has been signed by Mozilla and will auto-update when new releases are made.
+Install via the XPI file on the [latest release](https://github.com/math4origami/webcatalog-helper/releases/latest). This file has been signed by Mozilla, and once installed the extension will auto-update when new releases are made.
 
 ## Features
 
@@ -20,11 +20,11 @@ Install via the XPI file on the [latest release](https://github.com/math4origami
 
 ![screenshot.png](images/screenshot.png)
 
-* Adds the author name (執筆者名) next to the circle name (サークル名)
-* Enables clicking anywhere in the memo cell to open the memo text edit field
-* Autofocuses the text cursor on the memo text field when opened
-* Within the memo text field, adds keyboard shortcuts `Enter` or `Ctrl+S` to save changes, or `Esc` to revert changes
-* Changes the social media icons to links to their respective social media pages if present, instead of just going to circle info
+* Adds the author name (執筆者名) between the circle name and genre.
+* Enables clicking anywhere in the memo cell to open the memo text edit field.
+* Autofocuses the text cursor on the memo text field when opened.
+* Within the memo text field, adds keyboard shortcuts `Enter` or `Ctrl+S` to save changes, or `Esc` to revert changes.
+* Changes the social media icons to links to their respective social media pages if present, instead of just going to circle info.
 
 ## Troubleshooting
 
@@ -32,7 +32,7 @@ Install via the XPI file on the [latest release](https://github.com/math4origami
 
 ![Firefox Override Keyboard Shortcuts setting](images/ff-permissions.png)
 
-* In Firefox, the `Ctrl+S` hotkey may open the system `Save As` window. To disable this, open the [Page Info window](https://support.mozilla.org/en-US/kb/firefox-page-info-window), go to the `Permissions` tab, find the `Override Keyboard Shortcuts` line, and set it to `Allow` .
+* In Firefox, the `Ctrl+S` hotkey may open the system `Save As` window. To disable this, open the [Page Info window](https://support.mozilla.org/en-US/kb/firefox-page-info-window), go to the `Permissions` tab, find the `Override Keyboard Shortcuts` line, and set it to `Allow`.
 
 ## Development
 
